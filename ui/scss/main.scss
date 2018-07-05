@@ -1,0 +1,10 @@
+@import "node_modules/bootswatch/dist/sanstone/variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootswatch/dist/sanstone/bootswatch";
+
+.navbar-brand{
+	font-size:1rem;
+}
+.dropdown-menu .dropdown-item{
+	    text-transform: capitalize;
+}

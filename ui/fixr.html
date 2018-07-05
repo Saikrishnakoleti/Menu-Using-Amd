@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <!-- <script src="/scripts/vendor/jquery/3.3.1/jquery.min.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="/css/vendor/bootstrap/4.0.0/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/vendor/bootstrap/4.0.0/glyphicons-only-bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css" />
+    <!-- <script src="/scripts/vendor/bootstrap/4.0.0/bootstrap.min.js"></script> -->
+    <script data-main="js/app" src="js/lib/require.js"></script>
+</head>
+
+<body>
+    <nav class="nav justify-content">
+        <div class="nav" id="nav-tab" role="tablist">
+            <a class="nav-item navbar-brand ml-3" data-toggle="tab" href="#" role="tab" aria-controls="nav-listview" aria-selected="false">Autofixr</a>
+            <a data-toggle="tab" href="#" role="tab" aria-selected="true">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="navbar-brand dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">Dashboard</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Home</a>
+                            <a class="dropdown-item" href="#">Manage Dashboard</a>
+                        </div>
+                    </li>
+                </ul>
+            </a>
+            <a class="nav-item navbar-brand" data-toggle="tab" href="#" role="tab" aria-controls="nav-listview" aria-selected="false">Rules</a>
+            <a class="nav-item navbar-brand" data-toggle="tab" href="#" role="tab" aria-controls="nav-listview" aria-selected="false">Quality Profile</a>
+            <a class="nav-item navbar-brand" id="nav-listview-tab" data-toggle="tab" href="#nav-listview" role="tab" aria-controls="nav-listview" aria-selected="false">Administration</a>
+            <a data-toggle="tab" href="#" role="tab" aria-selected="true"></a>
+
+        </div>
+        <!-- s nav div -->
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown ml-5">
+                <a class="navbar-brand dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">Administration</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">My Account</a>
+                    <a class="dropdown-item" href="#">Log Out</a>
+                </div>
+            </li>
+        </ul>
+        <a class="navbar-brand tab ml-4" data-toggle="tab" href="#" role="tab" href="#"><span class="glyphicon glyphicon-search"></span></a>
+        <a class="navbar-brand tab ml-4" data-toggle="tab" href="#" role="tab" herf="#"><span class="glyphicon glyphicon-question-sign ml-3"></span></a>
+    </nav>
+    <!--  nav justify-content -->
+    <input type="text" placeholder="Enter  name" id="input" />
+    <button id="add-input">Submit</button>
+
+    <ul id="userlist">
+    </ul>
+    <div id="inputtext"></div>
+</body>
+
+</html>
